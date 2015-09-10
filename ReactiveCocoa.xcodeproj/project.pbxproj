@@ -33,7 +33,6 @@
 		A9B315731B3940750001CB9C /* NSString+RACKeyPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D037645119EDA41200A782A9 /* NSString+RACKeyPathUtilities.m */; };
 		A9B315741B3940750001CB9C /* NSString+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D037645319EDA41200A782A9 /* NSString+RACSequenceAdditions.m */; };
 		A9B315751B3940750001CB9C /* NSString+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D037645519EDA41200A782A9 /* NSString+RACSupport.m */; };
-		A9B315771B3940750001CB9C /* NSURLConnection+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D037645919EDA41200A782A9 /* NSURLConnection+RACSupport.m */; };
 		A9B315781B3940750001CB9C /* NSUserDefaults+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D037645B19EDA41200A782A9 /* NSUserDefaults+RACSupport.m */; };
 		A9B315791B3940750001CB9C /* RACArraySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = D037645D19EDA41200A782A9 /* RACArraySequence.m */; };
 		A9B3157A1B3940750001CB9C /* RACBehaviorSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = D037646119EDA41200A782A9 /* RACBehaviorSubject.m */; };
@@ -1902,7 +1901,6 @@
 				A9B315731B3940750001CB9C /* NSString+RACKeyPathUtilities.m in Sources */,
 				A9B315741B3940750001CB9C /* NSString+RACSequenceAdditions.m in Sources */,
 				A9B315751B3940750001CB9C /* NSString+RACSupport.m in Sources */,
-				A9B315771B3940750001CB9C /* NSURLConnection+RACSupport.m in Sources */,
 				A9B315781B3940750001CB9C /* NSUserDefaults+RACSupport.m in Sources */,
 				A9B315791B3940750001CB9C /* RACArraySequence.m in Sources */,
 				A9B3157A1B3940750001CB9C /* RACBehaviorSubject.m in Sources */,
@@ -2313,6 +2311,7 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -2328,6 +2327,7 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -2343,6 +2343,7 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -2358,6 +2359,7 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -2461,7 +2463,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
@@ -2474,7 +2476,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
@@ -2556,7 +2558,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
@@ -2624,7 +2626,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
