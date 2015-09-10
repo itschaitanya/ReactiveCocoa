@@ -2317,7 +2317,9 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				ONLY_ACTIVE_ARCH = NO;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "armv7k i386";
 			};
 			name = Debug;
 		};
@@ -2333,7 +2335,9 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				ONLY_ACTIVE_ARCH = NO;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "armv7k i386";
 			};
 			name = Test;
 		};
@@ -2349,7 +2353,9 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				ONLY_ACTIVE_ARCH = NO;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "armv7k i386";
 			};
 			name = Release;
 		};
@@ -2365,7 +2371,9 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				ONLY_ACTIVE_ARCH = NO;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "armv7k i386";
 			};
 			name = Profile;
 		};
