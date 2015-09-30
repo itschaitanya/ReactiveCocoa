@@ -62,7 +62,20 @@ FOUNDATION_EXPORT const unsigned char ReactiveCocoaVersionString[];
 #import <ReactiveCocoa/RACTuple.h>
 #import <ReactiveCocoa/RACUnit.h>
 
+
 #if TARGET_OS_WATCH
+#elif TARGET_OS_TV
+#undef TARGET_OS_MAC
+	#import <ReactiveCocoa/UISegmentedControl+RACSignalSupport.h>
+	#import <ReactiveCocoa/UIGestureRecognizer+RACSignalSupport.h>
+	#import <ReactiveCocoa/UICollectionReusableView+RACSignalSupport.h>
+	#import <ReactiveCocoa/UIControl+RACSignalSupport.h>
+	#import <ReactiveCocoa/UIBarButtonItem+RACCommandSupport.h>
+	#import <ReactiveCocoa/UITextView+RACSignalSupport.h>
+	#import <ReactiveCocoa/UITableViewHeaderFooterView+RACSignalSupport.h>
+	#import <ReactiveCocoa/UIButton+RACCommandSupport.h>
+	#import <ReactiveCocoa/UITextField+RACSignalSupport.h>
+	#import <ReactiveCocoa/UITableViewCell+RACSignalSupport.h>
 #elif TARGET_OS_IOS
 	#import <ReactiveCocoa/MKAnnotationView+RACSignalSupport.h>
 	#import <ReactiveCocoa/UIActionSheet+RACSignalSupport.h>
@@ -83,7 +96,7 @@ FOUNDATION_EXPORT const unsigned char ReactiveCocoaVersionString[];
 	#import <ReactiveCocoa/UITableViewHeaderFooterView+RACSignalSupport.h>
 	#import <ReactiveCocoa/UITextField+RACSignalSupport.h>
 	#import <ReactiveCocoa/UITextView+RACSignalSupport.h>
-#elif TARGET_OS_MAC
+#elif TARGET_OS_MAC 
 	#import <ReactiveCocoa/NSControl+RACCommandSupport.h>
 	#import <ReactiveCocoa/NSControl+RACTextSignalSupport.h>
 	#import <ReactiveCocoa/NSObject+RACAppKitBindings.h>
