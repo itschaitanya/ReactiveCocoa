@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "764EF29D1BBC8D4D0054A368"
-               BuildableName = "ReactiveCocoa-tvOS.framework"
+               BlueprintIdentifier = "764EF33C1BBC91AD0054A368"
+               BuildableName = "ReactiveCocoa.framework"
                BlueprintName = "ReactiveCocoa-tvOS"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "764EF29D1BBC8D4D0054A368"
-            BuildableName = "ReactiveCocoa-tvOS.framework"
+            BlueprintIdentifier = "764EF33C1BBC91AD0054A368"
+            BuildableName = "ReactiveCocoa.framework"
             BlueprintName = "ReactiveCocoa-tvOS"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "764EF29D1BBC8D4D0054A368"
-            BuildableName = "ReactiveCocoa-tvOS.framework"
+            BlueprintIdentifier = "764EF33C1BBC91AD0054A368"
+            BuildableName = "ReactiveCocoa.framework"
             BlueprintName = "ReactiveCocoa-tvOS"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
          </BuildableReference>
